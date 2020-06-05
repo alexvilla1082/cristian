@@ -51,7 +51,7 @@
             "logo": true,
             "showBrand": false,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "transparent": true,
             "color": "#2c2c2c",
