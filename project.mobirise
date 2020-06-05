@@ -16,8 +16,9 @@
     "versionFirst": "4.12.3",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 2,
-    "versionPublish": "4.12.3"
+    "uniqCompNum": 7,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -52,7 +53,7 @@
             "showBrand": false,
             "showButtons": false,
             "sticky": false,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
             "color": "#2c2c2c",
             "hamburgerColor": "#fac51c"
@@ -86,19 +87,19 @@
           "_inherit": "header1",
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "showArrow": false,
-            "contentAlign": "left",
+            "contentAlign": "center",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/blog-5-2000x938.png",
+            "bgImage": "images/bg2.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/embed/ySLc8gZ3oEc?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://www.youtube.com/watch?v=ySLc8gZ3oEc",
+              "url": "https://www.youtube.com/embed/Q5l2ChAqRDg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=Q5l2ChAqRDg",
               "width": 1280,
               "height": 720
             },
@@ -106,24 +107,26 @@
             "overlayColor": "#2d3147",
             "overlayOpacity": "0.9"
           },
-          "title": "<span style=\"font-weight: normal;\">Cristian</span><span style=\"font-weight: normal;\"><br>&nbsp; &nbsp;Unigarro.</span>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
+          "title": "<span style=\"font-weight: normal;\">Cristian<br>Unigarro.</span>",
+          "text": "<br>On-line, on demand\n<br>siempre ON",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-1",
+          "_name": "header2",
+          "_anchor": "header2-6",
           "_styles": {
             "H1": {
+              "text-align": "left",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "text-align": "center",
-              "font-size": "72px"
-            },
-            "SPAN": {
               "font-size": "60px"
+            },
+            "P": {
+              "text-align": "left",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           }
         }
